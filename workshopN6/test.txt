@@ -1,0 +1,52 @@
+only island manage scrap floor hawk please arm donor loyal phrase exact
+
+
+tonos-cli genpubkey "only island manage scrap floor hawk please arm donor loyal phrase exact"
+
+Public key: 36f9173a11cd403f2e2098cda87839001e875ef1232d43c717cfda75732bb593
+
+
+tonos-cli getkeypair C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.keys.json "only island manage scrap floor hawk please arm donor loyal phrase exact"
+
+
+
+tonos-cli genaddr C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.tvc C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.abi.json --setkey C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.keys.json --wc 0
+
+Raw address: 0:6143bb0998f3f3446264b796bd427f7cc7488bc2da90015f3b5c6d099be023bc
+
+
+
+tonos-cli deploy C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.tvc "{\"owners\":[\"0xd030287360c0ce26e0e2a44ab5674bfd40261557bf088b8375dc69355959f872\",\"0x67d71bc91f30a9eb5a67a61c545dd0e09b9576987b952d4116e3961622fa5729\",\"0xc2dd3682ffa9df97a968bef90b63da90fc92b22163f558b63cb7e52bfcd51bbb\"],\"reqConfirms\":2}" --abi C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.abi.json --sign C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.keys.json
+
+
+
+
+tonos-cli run 0:6143bb0998f3f3446264b796bd427f7cc7488bc2da90015f3b5c6d099be023bc getCustodians {} --abi C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.abi.json
+
+
+
+tonos-cli call 0:6143bb0998f3f3446264b796bd427f7cc7488bc2da90015f3b5c6d099be023bc submitTransaction "{\"dest\":\"0:e581ac717b5e732287cc06f6eddfd936873bd307736390f064ae6f3af4cd5c1c\",\"value\":6000000000,\"bounce\":true,\"allBalance\":false,\"payload\":\"\"}" --abi C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.abi.json --sign C:\Users\eTranslate\Desktop\DeCouse3\samplesolidtyCodeEverscale\setcodemultisig\SetcodeMultisigWallet.keys.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
